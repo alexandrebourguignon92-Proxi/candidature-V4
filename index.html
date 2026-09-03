@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidature V4 Business Expert — Alexandre Bourguignon</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        proximus: {
+                            purple: '#5C2D91',
+                            darkPurple: '#351953',
+                            magenta: '#EE2E5D',
+                            blue: '#00BCEE',
+                            lightBg: '#F8F5FA'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .hero-proximus {
+            background: linear-gradient(135deg, #351953 0%, #5C2D91 60%, #45216F 100%);
+        }
+        .card-custom {
+            background: #ffffff;
+            border: 1px solid #E5D9F2;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .card-custom:hover {
+            border-color: #5C2D91;
+            box-shadow: 0 10px 25px -5px rgba(92, 45, 145, 0.15);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body class="bg-[#F9F8FA] text-slate-800 font-sans antialiased selection:bg-proximus-purple selection:text-white">
+
+    <!-- Header / Navbar -->
+    <header class="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-md z-50 border-b border-purple-100 shadow-sm">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-9 h-9 rounded-xl bg-proximus-purple flex items-center justify-center text-white font-bold text-sm shadow-md shadow-proximus-purple/20">
+                    AB
+                </div>
+                <span class="font-bold text-slate-900 tracking-tight text-lg">Alexandre Bourguignon</span>
+            </div>
+            <span class="text-xs font-semibold text-proximus-purple bg-purple-50 border border-purple-200 px-3 py-1.5 rounded-full">
+                Candidature V4 Business Expert — Waremme
+            </span>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-proximus text-white pt-36 pb-24 px-6 relative overflow-hidden">
+        <div class="max-w-4xl mx-auto text-center space-y-6 relative z-10">
+            <div class="inline-flex items-center gap-2 bg-white/10 border border-white/20 px-4 py-1.5 rounded-full text-purple-200 text-xs font-medium uppercase tracking-widest">
+                <i data-lucide="sparkles" class="w-3.5 h-3.5 text-proximus-blue"></i>
+                Proximus Waremme • Projet V4
+            </div>
+            
+            <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight leading-tight">
+                « Bientôt V4 à la maison...<br class="hidden md:block" /> Et chez <span class="text-proximus-blue">Proximus</span> ? »
+            </h1>
+            
+            <p class="text-purple-100 text-base md:text-lg max-w-2xl mx-auto font-normal leading-relaxed">
+                Un projet de vie ancré à Waremme et une ambition forte : <span class="font-semibold text-white underline decoration-proximus-magenta underline-offset-4">remettre le shop au premier plan</span>.
+            </p>
+
+            <div class="pt-6 flex flex-wrap justify-center gap-4">
+                <a href="#ancrage" class="bg-proximus-magenta hover:bg-rose-600 text-white font-semibold px-6 py-3 rounded-xl shadow-lg shadow-proximus-magenta/30 transition flex items-center gap-2 text-sm">
+                    <i data-lucide="heart" class="w-4 h-4"></i>
+                    Pourquoi Waremme ?
+                </a>
+                <a href="#feuille-de-route" class="bg-white/10 hover:bg-white/20 text-white border border-white/20 font-medium px-6 py-3 rounded-xl transition flex items-center gap-2 text-sm">
+                    <i data-lucide="compass" class="w-4 h-4"></i>
+                    Moments clés & Plan d'action
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Ancrage & Pourquoi Waremme ? -->
+    <section id="ancrage" class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+            <h2 class="text-2xl md:text-3xl font-bold text-slate-900">Le Choix de Waremme : Un Alignement Total</h2>
+            <p class="text-slate-600 text-sm mt-2">La rencontre entre un engagement personnel local et un vrai challenge professionnel.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Volet Personnel -->
+            <div class="bg-proximus-darkPurple text-white p-8 rounded-2xl relative shadow-md">
+                <div class="w-12 h-12 bg-white/10 text-proximus-blue rounded-xl flex items-center justify-center mb-6 border border-white/10">
+                    <i data-lucide="home" class="w-6 h-6"></i>
+                </div>
+                <span class="text-xs font-bold text-proximus-blue uppercase tracking-wider">Ancrage local</span>
+                <h3 class="font-bold text-white text-xl mt-1 mb-4">Mon Projet Personnel</h3>
+                <ul class="space-y-4 text-purple-100 text-sm">
+                    <li class="flex items-start gap-3">
+                        <i data-lucide="baby" class="w-5 h-5 text-proximus-magenta mt-0.5 shrink-0"></i>
+                        <span><strong>Vie de famille :</strong> Habitant à Waremme, je deviendrai papa au mois d'octobre. Un ancrage familial fort et pérenne dans la région.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i data-lucide="activity" class="w-5 h-5 text-proximus-blue mt-0.5 shrink-0"></i>
+                        <span><strong>Vie locale & Sport :</strong> Pratique sportive à Waremme, renforçant ma visibilité et mon réseau de proximité avec les acteurs locaux.</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Volet Professionnel (Mis à jour avec le potentiel général & targets) -->
+            <div class="card-custom p-8 rounded-2xl relative shadow-sm">
+                <div class="w-12 h-12 bg-purple-50 text-proximus-purple rounded-xl flex items-center justify-center mb-6 border border-purple-100">
+                    <i data-lucide="trophy" class="w-6 h-6"></i>
+                </div>
+                <span class="text-xs font-bold text-proximus-purple uppercase tracking-wider">Ambition Globale</span>
+                <h3 class="font-bold text-slate-900 text-xl mt-1 mb-4">Le Challenge Professionnel</h3>
+                <ul class="space-y-4 text-slate-600 text-sm">
+                    <li class="flex items-start gap-3">
+                        <i data-lucide="target" class="w-5 h-5 text-proximus-purple mt-0.5 shrink-0"></i>
+                        <span><strong>Atteinte des Targets :</strong> Exploiter pleinement le potentiel global du shop (Residential & Business) pour atteindre et dépasser nos objectifs de vente.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i data-lucide="zap" class="w-5 h-5 text-proximus-magenta mt-0.5 shrink-0"></i>
+                        <span><strong>Nouvelle dynamique d'équipe :</strong> Accompagner une équipe en évolution et diffuser une énergie collective pour replacer le shop de Waremme au premier plan.</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Moments Clés -->
+    <section id="parcours" class="py-20 px-6 max-w-6xl mx-auto border-t border-purple-100">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+            <h2 class="text-2xl md:text-3xl font-bold text-slate-900">Moments Clés & Préparation</h2>
+            <p class="text-slate-600 text-sm mt-2">Un parcours complet alliant compétences Business et maturité humaine</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="card-custom p-8 rounded-2xl relative flex flex-col justify-between">
+                <div>
+                    <div class="w-12 h-12 bg-purple-50 text-proximus-purple rounded-xl flex items-center justify-center mb-6 border border-purple-100">
+                        <i data-lucide="users-round" class="w-6 h-6"></i>
+                    </div>
+                    <span class="text-xs font-bold text-proximus-purple uppercase tracking-wider">Immersion & Mentoring</span>
+                    <h3 class="font-bold text-slate-900 text-lg mt-1 mb-3">Belle-Île & Évolution Humaine</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        Une montée en compétences structurée sur deux volets indissociables :
+                    </p>
+                    <ul class="space-y-2.5 text-slate-600 text-xs leading-relaxed">
+                        <li class="flex items-start gap-2">
+                            <i data-lucide="briefcase" class="w-3.5 h-3.5 text-proximus-purple mt-0.5 shrink-0"></i>
+                            <span><strong>Posture Business :</strong> Formation shop à Belle-Île avec Yorim Soxhlet.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i data-lucide="heart-handshake" class="w-3.5 h-3.5 text-proximus-magenta mt-0.5 shrink-0"></i>
+                            <span><strong>Dimension Humaine :</strong> Analyses et échanges approfondis avec Gauthier Libon & Jordan Leroy.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card-custom p-8 rounded-2xl relative flex flex-col justify-between">
+                <div>
+                    <div class="w-12 h-12 bg-purple-50 text-proximus-purple rounded-xl flex items-center justify-center mb-6 border border-purple-100">
+                        <i data-lucide="graduation-cap" class="w-6 h-6"></i>
+                    </div>
+                    <span class="text-xs font-bold text-proximus-purple uppercase tracking-wider">Certification</span>
+                    <h3 class="font-bold text-slate-900 text-lg mt-1 mb-3">V4 Learning Track</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Suivi rigoureux du parcours V4 Learning Track pour valider la maitrise des offres complexes, outils et processus B2B.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card-custom p-8 rounded-2xl relative flex flex-col justify-between">
+                <div>
+                    <div class="w-12 h-12 bg-purple-50 text-proximus-purple rounded-xl flex items-center justify-center mb-6 border border-purple-100">
+                        <i data-lucide="map-pin" class="w-6 h-6"></i>
+                    </div>
+                    <span class="text-xs font-bold text-proximus-purple uppercase tracking-wider">Prise de repères</span>
+                    <h3 class="font-bold text-slate-900 text-lg mt-1 mb-3">Arrivée à Waremme</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Intégration directe au shop pour me familiariser avec l'équipe, le nouveau manager et les clients de la région.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Plan d'Action Stratégique -->
+    <section id="feuille-de-route" class="py-20 px-6 bg-purple-50/50 border-y border-purple-100">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-2xl md:text-3xl font-bold text-slate-900">Plan d'Action Stratégique</h2>
+                <p class="text-slate-600 text-sm mt-2">Ma feuille de route en 3 étapes pour réussir cette transition</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Phase 1 -->
+                <div class="bg-white p-8 rounded-2xl border border-purple-100 shadow-sm relative">
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="text-xs font-bold uppercase tracking-wider text-slate-500 bg-slate-100 px-3 py-1 rounded-full">Phase 1</span>
+                        <span class="text-xs text-slate-400 font-medium">Avril — Présent</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-4">Structure & Intégration</h3>
+                    <ul class="space-y-3 text-slate-600 text-sm">
+                        <li class="flex items-start gap-2.5">
+                            <i data-lucide="check" class="w-4 h-4 text-proximus-purple mt-0.5 shrink-0"></i>
+                            <span>Familiarisation active avec le shop, le manager, l'équipe et les clients.</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <i data-lucide="check" class="w-4 h-4 text-proximus-purple mt-0.5 shrink-0"></i>
+                            <span>Mise en place d'une structure de travail claire et organisée au quotidien.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Phase 2 -->
+                <div class="bg-white p-8 rounded-2xl border-2 border-proximus-purple shadow-md relative">
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="text-xs font-bold uppercase tracking-wider text-proximus-purple bg-purple-50 px-3 py-1 rounded-full">Phase 2</span>
+                        <span class="text-xs text-proximus-magenta font-bold">Court Terme</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-4">Prise de Poste & Support</h3>
+                    <ul class="space-y-3 text-slate-600 text-sm">
+                        <li class="flex items-start gap-2.5">
+                            <i data-lucide="arrow-right" class="w-4 h-4 text-proximus-purple mt-0.5 shrink-0"></i>
+                            <span>Officialisation du rôle de V4 Business Expert.</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <i data-lucide="arrow-right" class="w-4 h-4 text-proximus-purple mt-0.5 shrink-0"></i>
+                            <span>Relais manager (soulagement de tâches et back-up shop lors des absences).</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <i data-lucide="arrow-right" class="w-4 h-4 text-proximus-purple mt-0.5 shrink-0"></i>
+                            <span>Prise de contact directe B2B (cartes de visite & rendez-vous dédiés).</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Phase 3 -->
+                <div class="bg-white p-8 rounded-2xl border border-purple-100 shadow-sm relative">
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="text-xs font-bold uppercase tracking-wider text-slate-500 bg-slate-100 px-3 py-1 rounded-full">Phase 3</span>
+                        <span class="text-xs text-slate-400 font-medium">Moyen & Long Terme</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-4">Accompagnement & Prospection</h3>
+                    <ul class="space-y-3 text-slate-600 text-sm">
+                        <li class="flex items-start gap-2.5">
+                            <i data-lucide="users" class="w-4 h-4 text-proximus-purple mt-0.5 shrink-0"></i>
+                            <span>Accueil et accompagnement à l'intégration du nouveau V5.</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <i data-lucide="git-merge" class="w-4 h-4 text-proximus-purple mt-0.5 shrink-0"></i>
+                            <span>Lien continu entre le manager et le V5 (partage de méthodes et écoute des idées neuves).</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <i data-lucide="line-chart" class="w-4 h-4 text-proximus-purple mt-0.5 shrink-0"></i>
+                            <span>Suivi proactif de la clientèle Business via un fichier dédié pour un contact régulier.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION : Ébauche du Fichier de Suivi Client B2B -->
+    <section id="prospection" class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="text-center max-w-2xl mx-auto mb-12">
+            <span class="text-xs font-bold text-proximus-purple uppercase tracking-wider bg-purple-50 px-3 py-1 rounded-full border border-purple-200">Focus Proactivité B2B</span>
+            <h2 class="text-2xl md:text-3xl font-bold text-slate-900 mt-3">Aperçu du Fichier de Suivi Client Business</h2>
+            <p class="text-slate-600 text-sm mt-2">La concrétisation de la Phase 3 : un outil simple pour structurer le suivi et la régularité des contacts.</p>
+        </div>
+
+        <div class="bg-white border border-purple-200 rounded-2xl shadow-sm overflow-hidden">
+            <!-- Header du tableau -->
+            <div class="bg-proximus-darkPurple text-white px-6 py-4 flex justify-between items-center">
+                <div class="flex items-center gap-2">
+                    <i data-lucide="file-spreadsheet" class="w-5 h-5 text-proximus-blue"></i>
+                    <span class="font-bold text-sm tracking-wide">Suivi_Clients_Business_Waremme.xlsx</span>
+                </div>
+                <span class="text-xs bg-white/10 text-purple-200 px-3 py-1 rounded-full border border-white/10">Outil V4 Expert</span>
+            </div>
+
+            <!-- Table responsive -->
+            <div class="overflow-x-auto">
+                <table class="w-full text-left text-xs border-collapse">
+                    <thead>
+                        <tr class="bg-purple-50 text-proximus-purple border-b border-purple-200 font-bold uppercase tracking-wider">
+                            <th class="p-4">Société</th>
+                            <th class="p-4">Personne de Contact</th>
+                            <th class="p-4">Coordonnées (Mail / Tél)</th>
+                            <th class="p-4">Solution Proximus Détenue</th>
+                            <th class="p-4">Raison de la Dernière Venue</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-100 text-slate-700">
+                        <tr class="hover:bg-purple-50/30 transition">
+                            <td class="p-4 font-semibold text-slate-900">Boulangerie Artisanale Waremme</td>
+                            <td class="p-4">Marc Dupont</td>
+                            <td class="p-4">0470/XX.XX.XX<br/><span class="text-slate-400">m.dupont@email.be</span></td>
+                            <td class="p-4"><span class="bg-purple-50 text-proximus-purple font-medium px-2 py-1 rounded border border-purple-100">Bizz All-in + 2 SIM</span></td>
+                            <td class="p-4">Renouvellement flotte mobile & demande de renseignements Fibre.</td>
+                        </tr>
+                        <tr class="hover:bg-purple-50/30 transition">
+                            <td class="p-4 font-semibold text-slate-900">Cabinet Médical Hesbaye</td>
+                            <td class="p-4">Dr. Sophie Laurent</td>
+                            <td class="p-4">0485/XX.XX.XX<br/><span class="text-slate-400">contact@cabinet-hesbaye.be</span></td>
+                            <td class="p-4"><span class="bg-purple-50 text-proximus-purple font-medium px-2 py-1 rounded border border-purple-100">Internet Pro + Phone Box</span></td>
+                            <td class="p-4">Assistance technique modem & ajout d'une ligne fixe secondaire.</td>
+                        </tr>
+                        <tr class="hover:bg-purple-50/30 transition">
+                            <td class="p-4 font-semibold text-slate-900">Garage Waremmien</td>
+                            <td class="p-4">Thomas Willems</td>
+                            <td class="p-4">019/XX.XX.XX<br/><span class="text-slate-400">t.willems@garage.be</span></td>
+                            <td class="p-4"><span class="bg-slate-100 text-slate-600 font-medium px-2 py-1 rounded">Aucune (Prospect / Concurrent)</span></td>
+                            <td class="p-4">Passage spontané pour comparatif d'offres et prise de carte de visite.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Note explicative -->
+            <div class="bg-slate-50 p-4 border-t border-slate-200 text-xs text-slate-600 flex items-center gap-3">
+                <i data-lucide="info" class="w-4 h-4 text-proximus-purple shrink-0"></i>
+                <span>Ce fichier permettra d'assurer une traçabilité claire et un contact proactif régulier avec l'ensemble des clients Business du secteur de Waremme.</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-proximus-darkPurple text-purple-200 py-10 px-6 text-center text-xs border-t border-purple-900">
+        <p class="font-medium text-white">Alexandre Bourguignon — Candidature V4 Business Expert</p>
+        <p class="mt-1 text-purple-300">Shop Proximus Waremme • 2026</p>
+    </footer>
+
+    <!-- Lucide Icons Initialize -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
