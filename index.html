@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Candidature V4 Business Expert — Alexandre Bourguignon</title>
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons CDN -->
     <script src="https://unpkg.com/lucide@latest"></script>
     <script>
         tailwind.config = {
@@ -41,6 +43,7 @@
 </head>
 <body class="bg-[#F9F8FA] text-slate-800 font-sans antialiased selection:bg-proximus-purple selection:text-white">
 
+    <!-- Header / Navbar -->
     <header class="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-md z-50 border-b border-purple-100 shadow-sm">
         <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
             <div class="flex items-center gap-3">
@@ -53,6 +56,7 @@
         </div>
     </header>
 
+    <!-- Hero Section -->
     <section class="hero-proximus text-white pt-36 pb-24 px-6 relative overflow-hidden">
         <div class="max-w-4xl mx-auto text-center space-y-6 relative z-10">
             <div class="inline-flex items-center gap-2 bg-white/10 border border-white/20 px-4 py-1.5 rounded-full text-purple-200 text-xs font-medium uppercase tracking-widest">
@@ -73,21 +77,109 @@
                     <i data-lucide="heart" class="w-4 h-4"></i>
                     Pourquoi Waremme ?
                 </a>
-                <a href="#profil" class="bg-white/10 hover:bg-white/20 text-white border border-white/20 font-medium px-6 py-3 rounded-xl transition flex items-center gap-2 text-sm">
-                    <i data-lucide="user" class="w-4 h-4"></i>
-                    Qui je suis
+                <a href="#performances" class="bg-white/10 hover:bg-white/20 text-white border border-white/20 font-medium px-6 py-3 rounded-xl transition flex items-center gap-2 text-sm">
+                    <i data-lucide="trophy" class="w-4 h-4"></i>
+                    Mes Chiffres & Succès
                 </a>
             </div>
         </div>
     </section>
 
-    <section id="ancrage" class="py-20 px-6 max-w-6xl mx-auto">
+    <!-- SECTION : Performances & Chiffres Clés -->
+    <section id="performances" class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+            <span class="text-xs font-bold text-proximus-purple uppercase tracking-wider bg-purple-50 px-3 py-1 rounded-full border border-purple-200">Preuves de Résultats</span>
+            <h2 class="text-2xl md:text-3xl font-bold text-slate-900 mt-3">Résultats & Performances Vente</h2>
+            <p class="text-slate-600 text-sm mt-2">Chez Proximus depuis mai 2023 : la régularité du surpassement au service du collectif.</p>
+        </div>
+
+        <!-- Rang 1: Badges de classement -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <div class="bg-proximus-darkPurple text-white p-6 rounded-2xl flex items-center justify-between shadow-md">
+                <div class="space-y-1">
+                    <span class="text-xs font-bold text-proximus-blue uppercase tracking-wider">Ranking Global</span>
+                    <h3 class="text-2xl font-extrabold text-white">Top 10 Vendeurs</h3>
+                    <p class="text-xs text-purple-200">Sur l'ensemble des vendeurs Proximus (2024 & 2025)</p>
+                </div>
+                <div class="w-14 h-14 bg-white/10 rounded-2xl flex items-center justify-center shrink-0 border border-white/10 text-proximus-blue">
+                    <i data-lucide="award" class="w-8 h-8"></i>
+                </div>
+            </div>
+
+            <div class="bg-proximus-darkPurple text-white p-6 rounded-2xl flex items-center justify-between shadow-md">
+                <div class="space-y-1">
+                    <span class="text-xs font-bold text-proximus-magenta uppercase tracking-wider">Classement Categorie</span>
+                    <h3 class="text-2xl font-extrabold text-white">N°1 Vendeur V5</h3>
+                    <p class="text-xs text-purple-200">Top 1 sur l'année 2024 et 2025</p>
+                </div>
+                <div class="w-14 h-14 bg-white/10 rounded-2xl flex items-center justify-center shrink-0 border border-white/10 text-proximus-magenta">
+                    <i data-lucide="crown" class="w-8 h-8"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Rang 2: Chiffres 2025 & Évolutions -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Chiffres Globaux 2025 -->
+            <div class="card-custom p-8 rounded-2xl relative">
+                <div class="w-12 h-12 bg-purple-50 text-proximus-purple rounded-xl flex items-center justify-center mb-6 border border-purple-100">
+                    <i data-lucide="bar-chart-3" class="w-6 h-6"></i>
+                </div>
+                <span class="text-xs font-bold text-proximus-purple uppercase tracking-wider">Volume Annuel 2025</span>
+                <div class="mt-2 mb-4">
+                    <span class="text-3xl font-extrabold text-slate-900">14 764</span>
+                    <span class="text-xs font-bold text-proximus-purple bg-purple-50 px-2 py-0.5 rounded border border-purple-100 ml-2">Total Points</span>
+                </div>
+                <p class="text-xs text-slate-600 leading-relaxed border-t border-purple-100 pt-3">
+                    <strong>Moyenne constante :</strong> <span class="text-slate-900 font-semibold">3 691 points par trimestre</span>, démontrant une haute régularité commerciale.
+                </p>
+            </div>
+
+            <!-- Évolution Omnium -->
+            <div class="card-custom p-8 rounded-2xl relative">
+                <div class="w-12 h-12 bg-purple-50 text-proximus-purple rounded-xl flex items-center justify-center mb-6 border border-purple-100">
+                    <i data-lucide="shield-check" class="w-6 h-6"></i>
+                </div>
+                <span class="text-xs font-bold text-proximus-purple uppercase tracking-wider">Progression Omnium</span>
+                <div class="mt-2 mb-4 flex items-baseline gap-2">
+                    <span class="text-3xl font-extrabold text-slate-900">61</span>
+                    <span class="text-xs font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-100 flex items-center gap-1">
+                        <i data-lucide="trending-up" class="w-3 h-3"></i> En cours
+                    </span>
+                </div>
+                <p class="text-xs text-slate-600 leading-relaxed border-t border-purple-100 pt-3">
+                    Volume déjà supérieur à l'heure actuelle par rapport au total de <span class="text-slate-900 font-semibold">60 réalisations</span> sur toute l'année 2025.
+                </p>
+            </div>
+
+            <!-- Évolution Proxibox -->
+            <div class="card-custom p-8 rounded-2xl relative">
+                <div class="w-12 h-12 bg-purple-50 text-proximus-purple rounded-xl flex items-center justify-center mb-6 border border-purple-100">
+                    <i data-lucide="package-check" class="w-6 h-6"></i>
+                </div>
+                <span class="text-xs font-bold text-proximus-purple uppercase tracking-wider">Accélération Proxibox</span>
+                <div class="mt-2 mb-4 flex items-baseline gap-2">
+                    <span class="text-3xl font-extrabold text-slate-900">78</span>
+                    <span class="text-xs font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-100 flex items-center gap-1">
+                        <i data-lucide="trending-up" class="w-3 h-3"></i> Début Août
+                    </span>
+                </div>
+                <p class="text-xs text-slate-600 leading-relaxed border-t border-purple-100 pt-3">
+                    Forte accélération vs <span class="text-slate-900 font-semibold">47 unités</span> sur la totalité de l'année 2025 (dépassé dès le milieu de l'été).
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Ancrage & Pourquoi Waremme ? -->
+    <section id="ancrage" class="py-20 px-6 max-w-6xl mx-auto border-t border-purple-100">
         <div class="text-center max-w-2xl mx-auto mb-16">
             <h2 class="text-2xl md:text-3xl font-bold text-slate-900">Waremme : Un Choix de Cœur et de Raison</h2>
             <p class="text-slate-600 text-sm mt-2">Quand mon projet de vie privée rencontre une vraie envie de faire briller le shop au quotidien.</p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Volet Personnel -->
             <div class="bg-proximus-darkPurple text-white p-8 rounded-2xl relative shadow-md">
                 <div class="w-12 h-12 bg-white/10 text-proximus-blue rounded-xl flex items-center justify-center mb-6 border border-white/10">
                     <i data-lucide="home" class="w-6 h-6"></i>
@@ -97,7 +189,7 @@
                 <ul class="space-y-4 text-purple-100 text-sm">
                     <li class="flex items-start gap-3">
                         <i data-lucide="baby" class="w-5 h-5 text-proximus-magenta mt-0.5 shrink-0"></i>
-                        <span><strong>Vie de famille :</strong> Habitant à Waremme, je deviendrai papa au mois d'octobre. Un ancrage familial fort et pérenne dans la région.</span>
+                        <span><strong>Vie de famille :</strong> Installé à Waremme, la famille s'agrandit avec l'arrivée d'un bébé en octobre ! Un beau projet qui m'ancre pour de bon ici.</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="activity" class="w-5 h-5 text-proximus-blue mt-0.5 shrink-0"></i>
@@ -106,267 +198,113 @@
                 </ul>
             </div>
 
+            <!-- Volet Professionnel -->
             <div class="card-custom p-8 rounded-2xl relative shadow-sm">
                 <div class="w-12 h-12 bg-purple-50 text-proximus-purple rounded-xl flex items-center justify-center mb-6 border border-purple-100">
                     <i data-lucide="trophy" class="w-6 h-6"></i>
                 </div>
-                <span class="text-xs font-bold text-proximus-purple uppercase tracking-wider">Ambition Globale</span>
+                <span class="text-xs font-bold text-proximus-purple uppercase tracking-wider">Ambition Globale & Targets</span>
                 <h3 class="font-bold text-slate-900 text-xl mt-1 mb-4">Le Challenge Professionnel</h3>
-                <ul class="space-y-4 text-slate-600 text-sm">
+                <ul class="space-y-3.5 text-slate-600 text-sm">
                     <li class="flex items-start gap-3">
-                        <i data-lucide="target" class="w-5 h-5 text-proximus-purple mt-0.5 shrink-0"></i>
-                        <span><strong>Atteinte des Targets :</strong> Exploiter pleinement le potentiel global du shop (Residential & Business) pour atteindre et dépasser nos objectifs de vente.</span>
+                        <i data-lucide="scale" class="w-5 h-5 text-proximus-purple mt-0.5 shrink-0"></i>
+                        <span><strong>Partenariats Réseau :</strong> Développement d'un réseau direct avec certains avocats locaux pour la prise en charge fluide des dossiers sous administration de biens.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i data-lucide="messages-square" class="w-5 h-5 text-proximus-purple mt-0.5 shrink-0"></i>
+                        <span><strong>Techniques de Vente & Bridging :</strong> Découverte client ciblée via des questions ouvertes pour faire du rebond commercial naturel et accroître le panier moyen.</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="zap" class="w-5 h-5 text-proximus-magenta mt-0.5 shrink-0"></i>
-                        <span><strong>Nouvelle dynamique d'équipe :</strong> Accompagner une équipe en évolution et diffuser une énergie collective pour replacer le shop de Waremme au premier plan.</span>
+                        <span><strong>Dynamique d'Équipe :</strong> Insuffler une énergie collective pour exploiter tout le potentiel du shop et atteindre/dépasser nos objectifs.</span>
                     </li>
                 </ul>
             </div>
         </div>
     </section>
 
+    <!-- SECTION : Profil & Traduction Pro -->
     <section id="profil" class="py-20 px-6 max-w-6xl mx-auto border-t border-purple-100">
         <div class="text-center max-w-2xl mx-auto mb-16">
-            <span class="text-xs font-bold text-proximus-purple uppercase tracking-wider bg-purple-50 px-3 py-1 rounded-full border border-purple-200">Ce Qui Me Caractérise</span>
-            <h2 class="text-2xl md:text-3xl font-bold text-slate-900 mt-3">Qui Je Suis Dans la Vie de Tous les Jours</h2>
-            <p class="text-slate-600 text-sm mt-2">Mes valeurs personnelles et mes traits de caractère au quotidien, sans filtre.</p>
+            <span class="text-xs font-bold text-proximus-purple uppercase tracking-wider bg-purple-50 px-3 py-1 rounded-full border border-purple-200">De l'Humain au Professionnel</span>
+            <h2 class="text-2xl md:text-3xl font-bold text-slate-900 mt-3">Qui Je Suis : Du Quotidien au Pro</h2>
+            <p class="text-slate-600 text-sm mt-2">Comment mes traits de caractère personnels se traduisent concrètement dans mon métier.</p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="card-custom p-8 rounded-2xl relative">
-                <div class="w-12 h-12 bg-purple-50 text-proximus-purple rounded-xl flex items-center justify-center mb-6 border border-purple-100">
-                    <i data-lucide="glass-water" class="w-6 h-6"></i>
-                </div>
-                <span class="text-xs font-bold text-proximus-purple uppercase tracking-wider">Savoir-Être</span>
-                <h3 class="font-bold text-slate-900 text-lg mt-1 mb-3">Épicurien & Sociable</h3>
-                <p class="text-slate-600 text-sm leading-relaxed">
-                    Dans la vie quotidienne, je suis quelqu'un de bien vivant qui aime profiter des bonnes choses et partager des moments vrais. Créer des liens authentiques, discuter naturellement et apporter de la convivialité autour de moi fait partie de mon ADN.
-                </p>
-            </div>
-
-            <div class="card-custom p-8 rounded-2xl relative">
-                <div class="w-12 h-12 bg-purple-50 text-proximus-purple rounded-xl flex items-center justify-center mb-6 border border-purple-100">
-                    <i data-lucide="compass" class="w-6 h-6"></i>
-                </div>
-                <span class="text-xs font-bold text-proximus-purple uppercase tracking-wider">Moteur Personnel</span>
-                <h3 class="font-bold text-slate-900 text-lg mt-1 mb-3">Organisé, Dévoué & Ambitieux</h3>
-                <p class="text-slate-600 text-sm leading-relaxed">
-                    Que ce soit dans mon organisation personnelle, dans mon engagement familial ou dans la pratique du sport à Waremme, je ne fais jamais les choses à moitié. Quand je m'investis dans un projet, je m'y donne à 100% avec rigueur et l'envie d'aller au bout.
-                </p>
-            </div>
-
-            <div class="card-custom p-8 rounded-2xl relative">
-                <div class="w-12 h-12 bg-purple-50 text-proximus-purple rounded-xl flex items-center justify-center mb-6 border border-purple-100">
-                    <i data-lucide="trending-up" class="w-6 h-6"></i>
-                </div>
-                <span class="text-xs font-bold text-proximus-purple uppercase tracking-wider">Axe de Progrès</span>
-                <h3 class="font-bold text-slate-900 text-lg mt-1 mb-3">Délégation & Transmission</h3>
-                <p class="text-slate-600 text-sm leading-relaxed">
-                    Parce que je suis naturellement très dévoué et perfectionniste au quotidien, j'ai parfois tendance à vouloir tout prendre sur mes épaules. J'apprends aujourd'hui à lâcher prise pour transmettre et faire confiance aux autres en toute sérénité.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <section id="parcours" class="py-20 px-6 max-w-6xl mx-auto border-t border-purple-100">
-        <div class="text-center max-w-2xl mx-auto mb-16">
-            <h2 class="text-2xl md:text-3xl font-bold text-slate-900">Moments Clés & Préparation</h2>
-            <p class="text-slate-600 text-sm mt-2">Un parcours complet alliant compétences Business et maturité humaine</p>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- 1. Savoir-être -->
             <div class="card-custom p-8 rounded-2xl relative flex flex-col justify-between">
                 <div>
                     <div class="w-12 h-12 bg-purple-50 text-proximus-purple rounded-xl flex items-center justify-center mb-6 border border-purple-100">
-                        <i data-lucide="users-round" class="w-6 h-6"></i>
+                        <i data-lucide="glass-water" class="w-6 h-6"></i>
                     </div>
-                    <span class="text-xs font-bold text-proximus-purple uppercase tracking-wider">Immersion & Mentoring</span>
-                    <h3 class="font-bold text-slate-900 text-lg mt-1 mb-3">Belle-Île & Évolution Humaine</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
-                        Une montée en compétences structurée sur deux volets indissociables :
-                    </p>
-                    <ul class="space-y-2.5 text-slate-600 text-xs leading-relaxed">
-                        <li class="flex items-start gap-2">
-                            <i data-lucide="briefcase" class="w-3.5 h-3.5 text-proximus-purple mt-0.5 shrink-0"></i>
-                            <span><strong>Posture Business :</strong> Formation shop à Belle-Île avec Yorim Soxhlet.</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i data-lucide="heart-handshake" class="w-3.5 h-3.5 text-proximus-magenta mt-0.5 shrink-0"></i>
-                            <span><strong>Dimension Humaine :</strong> Analyses et échanges approfondis avec Gauthier Libon & Jordan Leroy.</span>
-                        </li>
-                    </ul>
+                    <span class="text-xs font-bold text-proximus-purple uppercase tracking-wider">Savoir-Être</span>
+                    <h3 class="font-bold text-slate-900 text-lg mt-1 mb-3">Épicurien & Sociable</h3>
+                    
+                    <div class="space-y-3 text-xs leading-relaxed">
+                        <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
+                            <span class="font-bold text-slate-700 block mb-1">Dans la vie :</span>
+                            <span class="text-slate-600">Amour des échanges vrais, convivialité naturelle et plaisir de partager des moments authentiques.</span>
+                        </div>
+                        <div class="bg-purple-50/60 p-3 rounded-xl border border-purple-100 text-proximus-purple">
+                            <span class="font-bold block mb-1 flex items-center gap-1">
+                                <i data-lucide="arrow-right-left" class="w-3.5 h-3.5"></i> Traduction Pro :
+                            </span>
+                            <span>J'apporte cette convivialité dans l'entretien client pour rendre l'échange chaleureux, installer une vraie confiance et fluidifier la relation.</span>
+                        </div>
+                    </div>
                 </div>
             </div>
 
+            <!-- 2. Moteur Personnel -->
             <div class="card-custom p-8 rounded-2xl relative flex flex-col justify-between">
                 <div>
                     <div class="w-12 h-12 bg-purple-50 text-proximus-purple rounded-xl flex items-center justify-center mb-6 border border-purple-100">
-                        <i data-lucide="graduation-cap" class="w-6 h-6"></i>
+                        <i data-lucide="compass" class="w-6 h-6"></i>
                     </div>
-                    <span class="text-xs font-bold text-proximus-purple uppercase tracking-wider">Certification</span>
-                    <h3 class="font-bold text-slate-900 text-lg mt-1 mb-3">V4 Learning Track</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">
-                        Suivi rigoureux du parcours V4 Learning Track pour valider la maitrise des offres complexes, outils et processus B2B.
-                    </p>
+                    <span class="text-xs font-bold text-proximus-purple uppercase tracking-wider">Moteur Personnel</span>
+                    <h3 class="font-bold text-slate-900 text-lg mt-1 mb-3">Ambition & Organisation</h3>
+                    
+                    <div class="space-y-3 text-xs leading-relaxed">
+                        <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
+                            <span class="font-bold text-slate-700 block mb-1">Dans la vie :</span>
+                            <span class="text-slate-600">Proactivité, goût du défi et structure au quotidien pour toujours atteindre mes buts.</span>
+                        </div>
+                        <div class="bg-purple-50/60 p-3 rounded-xl border border-purple-100 text-proximus-purple">
+                            <span class="font-bold block mb-1 flex items-center gap-1">
+                                <i data-lucide="arrow-right-left" class="w-3.5 h-3.5"></i> Traduction Pro :
+                            </span>
+                            <span>Mon ambition me pousse à me développer par moi-même sans attendre qu'on m'offre l'opportunité. Mon organisation me permet d'assurer un suivi client irréprochable.</span>
+                        </div>
+                    </div>
                 </div>
             </div>
 
+            <!-- 3. Axe de progrès -->
             <div class="card-custom p-8 rounded-2xl relative flex flex-col justify-between">
                 <div>
                     <div class="w-12 h-12 bg-purple-50 text-proximus-purple rounded-xl flex items-center justify-center mb-6 border border-purple-100">
-                        <i data-lucide="map-pin" class="w-6 h-6"></i>
+                        <i data-lucide="trending-up" class="w-6 h-6"></i>
                     </div>
-                    <span class="text-xs font-bold text-proximus-purple uppercase tracking-wider">Prise de repères</span>
-                    <h3 class="font-bold text-slate-900 text-lg mt-1 mb-3">Arrivée à Waremme</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">
-                        Intégration directe au shop pour me familiariser avec l'environnement local, le nouveau manager et les clients du secteur.
-                    </p>
+                    <span class="text-xs font-bold text-proximus-purple uppercase tracking-wider">Axe de Progrès</span>
+                    <h3 class="font-bold text-slate-900 text-lg mt-1 mb-3">Délégation & Confiance</h3>
+                    
+                    <div class="space-y-3 text-xs leading-relaxed">
+                        <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
+                            <span class="font-bold text-slate-700 block mb-1">Dans la vie :</span>
+                            <span class="text-slate-600">Tendance naturelle à vouloir tout gérer soi-même par souci d'implication.</span>
+                        </div>
+                        <div class="bg-purple-50/60 p-3 rounded-xl border border-purple-100 text-proximus-purple">
+                            <span class="font-bold block mb-1 flex items-center gap-1">
+                                <i data-lucide="arrow-right-left" class="w-3.5 h-3.5"></i> Traduction Pro :
+                            </span>
+                            <span>Je délègue davantage à mes collègues en expliquant ma vision, tout en restant à l'écoute et en faisant confiance à leur façon de faire.</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="feuille-de-route" class="py-20 px-6 bg-purple-50/50 border-y border-purple-100">
-        <div class="max-w-6xl mx-auto">
-            <div class="text-center max-w-2xl mx-auto mb-16">
-                <h2 class="text-2xl md:text-3xl font-bold text-slate-900">Plan d'Action Stratégique</h2>
-                <p class="text-slate-600 text-sm mt-2">Ma feuille de route en 3 étapes pour réussir cette transition</p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-white p-8 rounded-2xl border border-purple-100 shadow-sm relative">
-                    <div class="flex justify-between items-center mb-4">
-                        <span class="text-xs font-bold uppercase tracking-wider text-slate-500 bg-slate-100 px-3 py-1 rounded-full">Phase 1</span>
-                        <span class="text-xs text-slate-400 font-medium">Avril — Présent</span>
-                    </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-4">Structure & Intégration</h3>
-                    <ul class="space-y-3 text-slate-600 text-sm">
-                        <li class="flex items-start gap-2.5">
-                            <i data-lucide="check" class="w-4 h-4 text-proximus-purple mt-0.5 shrink-0"></i>
-                            <span>Familiarisation active avec le shop, le manager, l'équipe et les clients.</span>
-                        </li>
-                        <li class="flex items-start gap-2.5">
-                            <i data-lucide="check" class="w-4 h-4 text-proximus-purple mt-0.5 shrink-0"></i>
-                            <span>Mise en place d'une structure de travail claire et organisée au quotidien.</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="bg-white p-8 rounded-2xl border-2 border-proximus-purple shadow-md relative">
-                    <div class="flex justify-between items-center mb-4">
-                        <span class="text-xs font-bold uppercase tracking-wider text-proximus-purple bg-purple-50 px-3 py-1 rounded-full">Phase 2</span>
-                        <span class="text-xs text-proximus-magenta font-bold">Court Terme</span>
-                    </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-4">Prise de Poste & Support</h3>
-                    <ul class="space-y-3 text-slate-600 text-sm">
-                        <li class="flex items-start gap-2.5">
-                            <i data-lucide="arrow-right" class="w-4 h-4 text-proximus-purple mt-0.5 shrink-0"></i>
-                            <span>Officialisation du rôle de V4 Business Expert.</span>
-                        </li>
-                        <li class="flex items-start gap-2.5">
-                            <i data-lucide="arrow-right" class="w-4 h-4 text-proximus-purple mt-0.5 shrink-0"></i>
-                            <span>Relais manager (soulagement de tâches et back-up shop lors des absences).</span>
-                        </li>
-                        <li class="flex items-start gap-2.5">
-                            <i data-lucide="arrow-right" class="w-4 h-4 text-proximus-purple mt-0.5 shrink-0"></i>
-                            <span>Prise de contact directe B2B (cartes de visite & rendez-vous dédiés).</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="bg-white p-8 rounded-2xl border border-purple-100 shadow-sm relative">
-                    <div class="flex justify-between items-center mb-4">
-                        <span class="text-xs font-bold uppercase tracking-wider text-slate-500 bg-slate-100 px-3 py-1 rounded-full">Phase 3</span>
-                        <span class="text-xs text-slate-400 font-medium">Moyen & Long Terme</span>
-                    </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-4">Accompagnement & Prospection</h3>
-                    <ul class="space-y-3 text-slate-600 text-sm">
-                        <li class="flex items-start gap-2.5">
-                            <i data-lucide="users" class="w-4 h-4 text-proximus-purple mt-0.5 shrink-0"></i>
-                            <span>Accueil et accompagnement à l'intégration du nouveau V5.</span>
-                        </li>
-                        <li class="flex items-start gap-2.5">
-                            <i data-lucide="git-merge" class="w-4 h-4 text-proximus-purple mt-0.5 shrink-0"></i>
-                            <span>Lien continu entre le manager et le V5 (partage de méthodes et écoute des idées neuves).</span>
-                        </li>
-                        <li class="flex items-start gap-2.5">
-                            <i data-lucide="line-chart" class="w-4 h-4 text-proximus-purple mt-0.5 shrink-0"></i>
-                            <span>Suivi proactif de la clientèle Business via un fichier dédié pour un contact régulier.</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="prospection" class="py-20 px-6 max-w-6xl mx-auto">
-        <div class="text-center max-w-2xl mx-auto mb-12">
-            <span class="text-xs font-bold text-proximus-purple uppercase tracking-wider bg-purple-50 px-3 py-1 rounded-full border border-purple-200">Focus Proactivité B2B</span>
-            <h2 class="text-2xl md:text-3xl font-bold text-slate-900 mt-3">Aperçu du Fichier de Suivi Client Business</h2>
-            <p class="text-slate-600 text-sm mt-2">La concrétisation de la Phase 3 : un outil simple pour structurer le suivi et la régularité des contacts.</p>
-        </div>
-
-        <div class="bg-white border border-purple-200 rounded-2xl shadow-sm overflow-hidden">
-            <div class="bg-proximus-darkPurple text-white px-6 py-4 flex justify-between items-center">
-                <div class="flex items-center gap-2">
-                    <i data-lucide="file-spreadsheet" class="w-5 h-5 text-proximus-blue"></i>
-                    <span class="font-bold text-sm tracking-wide">Suivi_Clients_Business_Waremme.xlsx</span>
-                </div>
-                <span class="text-xs bg-white/10 text-purple-200 px-3 py-1 rounded-full border border-white/10">Outil V4 Expert</span>
-            </div>
-
-            <div class="overflow-x-auto">
-                <table class="w-full text-left text-xs border-collapse">
-                    <thead>
-                        <tr class="bg-purple-50 text-proximus-purple border-b border-purple-200 font-bold uppercase tracking-wider">
-                            <th class="p-4">Société</th>
-                            <th class="p-4">Personne de Contact</th>
-                            <th class="p-4">Coordonnées (Mail / Tél)</th>
-                            <th class="p-4">Solution Proximus Détenue</th>
-                            <th class="p-4">Raison de la Dernière Venue</th>
-                        </tr>
-                    </thead>
-                    <tbody class="divide-y divide-slate-100 text-slate-700">
-                        <tr class="hover:bg-purple-50/30 transition">
-                            <td class="p-4 font-semibold text-slate-900">Boulangerie Artisanale Waremme</td>
-                            <td class="p-4">Marc Dupont</td>
-                            <td class="p-4">0470/XX.XX.XX<br/><span class="text-slate-400">m.dupont@email.be</span></td>
-                            <td class="p-4"><span class="bg-purple-50 text-proximus-purple font-medium px-2 py-1 rounded border border-purple-100">Bizz All-in + 2 SIM</span></td>
-                            <td class="p-4">Renouvellement flotte mobile & demande de renseignements Fibre.</td>
-                        </tr>
-                        <tr class="hover:bg-purple-50/30 transition">
-                            <td class="p-4 font-semibold text-slate-900">Cabinet Médical Hesbaye</td>
-                            <td class="p-4">Dr. Sophie Laurent</td>
-                            <td class="p-4">0485/XX.XX.XX<br/><span class="text-slate-400">contact@cabinet-hesbaye.be</span></td>
-                            <td class="p-4"><span class="bg-purple-50 text-proximus-purple font-medium px-2 py-1 rounded border border-purple-100">Internet Pro + Phone Box</span></td>
-                            <td class="p-4">Assistance technique modem & ajout d'une ligne fixe secondaire.</td>
-                        </tr>
-                        <tr class="hover:bg-purple-50/30 transition">
-                            <td class="p-4 font-semibold text-slate-900">Garage Waremmien</td>
-                            <td class="p-4">Thomas Willems</td>
-                            <td class="p-4">019/XX.XX.XX<br/><span class="text-slate-400">t.willems@garage.be</span></td>
-                            <td class="p-4"><span class="bg-slate-100 text-slate-600 font-medium px-2 py-1 rounded">Aucune (Prospect / Concurrent)</span></td>
-                            <td class="p-4">Passage spontané pour comparatif d'offres et prise de carte de visite.</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="bg-slate-50 p-4 border-t border-slate-200 text-xs text-slate-600 flex items-center gap-3">
-                <i data-lucide="info" class="w-4 h-4 text-proximus-purple shrink-0"></i>
-                <span>Ce fichier permettra d'assurer une traçabilité claire et un contact proactif régulier avec l'ensemble des clients Business du secteur de Waremme.</span>
-            </div>
-        </div>
-    </section>
-
-    <footer class="bg-proximus-darkPurple text-purple-200 py-10 px-6 text-center text-xs border-t border-purple-900">
-        <p class="font-medium text-white">Alexandre Bourguignon — Candidature V4 Business Expert</p>
-        <p class="mt-1 text-purple-300">Shop Proximus Waremme • 2026</p>
-    </footer>
-
-    <script>
-        lucide.createIcons();
-    </script>
-</body>
-</html>
+    <!-- SECTION : Stratégie Proximus AMPLIFY -->
+    <section id="amplify" class="py-20 px-6 max-
